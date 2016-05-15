@@ -8,7 +8,7 @@ def send_emails(emails,forecast):
     server.starttls()
 
     #3.Login
-    password = '11bce1792/'
+    password = '***********'
     email_from = 'ranishroy8@gmail.com'
     server.login(email_from,password)
 
